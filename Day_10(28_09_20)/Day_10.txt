@@ -1,0 +1,37 @@
+Exception Handling:
+    Helps you to handle the run time errors.
+    The base class for all the exception is ' Exception '
+    SqlException, NumberformatException, ZeroDivisionError, ArrayIndexOutOfBoundException.
+    ArithmaticException.
+
+Handle These Exceptions we use three blocks.
+    try         : Have the error
+    except      : Handles that error
+    finally     : Execute either the error occurs or not.
+
+File Handling:
+    Its is the most important part for the web applications.
+    * Creating
+    * Reading
+    * appending
+    * Deleting
+
+open() :
+    Helps you to open the file.
+    Function needs to parameters.
+        * filename : With exact location
+        * mode     : r,a,w,x
+
+        r : Read() : Opens file for reading, if the file id exists. Shows error if file doesn't exist
+        w : Write() : Create a new file if not exist and write the data.
+        a : Appened() : Create a new file if not exists and If file exists , it opens the file and appened the data
+        X : Create() : Create a new file
+
+        t : Text : Default value : Text mode
+        b : Binary : Binary Mode
+    
+close():
+    Helps you to close the file
+    readLine() : Line By Line
+    readLines() : Read all the lines and return single line as an output
+    fileobject : To iterate each line as a string

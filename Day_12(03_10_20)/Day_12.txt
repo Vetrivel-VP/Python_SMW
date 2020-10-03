@@ -1,0 +1,10 @@
+Graphics Using Python ( Tkinter )
+
+tkinter : In-built Package : Having all the gravical Objects:
+    import tkinter as tk
+
+
+Call the main class of the tkinter:
+    Main class: Tk()
+
+minaloop () : Function helps you to execute your graphical window

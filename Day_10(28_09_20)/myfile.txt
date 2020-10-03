@@ -1,0 +1,3 @@
+Bank Bank@123
+lists = line.split()
+lists['Bank','Bank@123]

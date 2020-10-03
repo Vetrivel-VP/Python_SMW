@@ -1,0 +1,43 @@
+Python Lambda:
+    A lambda is a small anonymous function
+    It can have any number of arguments , but can have only one expression.
+
+Syntax:
+    lambda arguments : expression
+
+Example:
+    Create a lambda function that adds to 10 to a parameter passed as an argument and to print result.
+
+    x = lambda a, b : a + b
+    print(x(5,5))
+
+    add(a,b):
+        c = a +b;
+        c = a / b
+        return a+b;
+
+
+Pip:
+    PIP is a package manager for Python package or modules.
+
+Package:
+    Package contains all the files you need for modules.
+    You can create your own packages also.
+
+    To create your own package, you need to add __init__.py 
+
+Import :    
+    There two ways to import a module.
+    Relative way    : import keyword ( import module_name )
+    Absolute way    : from Keyword (  from module_name import functions or classes  )
+
+PIP : Python package manager
+
+Version : pip --Version
+Upgrade : pip install --upgrade pip
+For Different User : pip install --user --upgrade pip
+
+List  Of packages : pip list
+
+Install : pip install package_name
+uninstall : pip uninstall package_name

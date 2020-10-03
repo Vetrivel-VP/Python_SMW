@@ -1,0 +1,59 @@
+Looping Statements:
+    All Programming Language : Two Types
+        Entry Check
+            It check the condition, If the condition is satisfied then only it execute the Statements
+                for
+                while
+        Exit Check
+            It executes the Statements, and then it check the condition.
+                do-while
+    Python :
+        Entry Check
+
+Stages:
+    Follows four stages.
+        1. Initialization
+        2. condition
+        3. Statements
+        4. Incerement Or Decrement.
+
+For Loop:
+    A for loop is used for iterating over a sequence ( List, a tuple, a set and a dictionary ).
+    Keyword : for
+
+Synatx:
+    for variable_name in range() or (list, tuple...etc):
+        Statements
+
+range() :
+    To loop through a set of code to specified number of times, we can use range() function
+    Return a sequence of number , starting from 0 by default  and increments by 1 by default
+
+    Syntax:
+        range(start_value,range_value,step_value)
+
+
+    Write a program to find the sum of first 5 natural numbers:
+        1,2,3,4,5 = 15
+
+
+while Loop:
+    Syntax:
+        while condition:
+            Statements
+
+        If you failed to increment your value then you while loop become an infinite loop
+
+infinite Loop :
+    You while loop with an end point  
+
+Sentinal Loop:
+    Sentinal Loop is an infinite loop it executes the statement until it reaches a special character or an end point
+
+String Variable:    
+    Index : To position the value of the string.
+        Index always strats from 0 ...
+    restart = "Yes"
+        [0 , 1 , 2]
+        [y, e, s]
+        print(restart[0])

@@ -1,0 +1,53 @@
+Function:
+    The function is helps you to repeat a certain line of codes again and again during the runtime of your program.
+    It is always followed by the ().
+Types:
+    1. Pre-defined Functions
+    2. User-defined Functions
+    3. Parameterized Functions
+
+Pre-defined:
+    Already defined in your library packages, like print(), eval(), input()...
+
+User-Defined:
+    We are creating our own function for own program. def is a keyword, helps you to define a new function.
+
+    Syntax:
+        def variable_name():
+            statements
+
+    Once you finished the function, leave an empty line to make sure that python can understand that the function is 
+    finished here.
+    To execute the function, you need to call the function to be executed. Untill calling it manually it doesn't executed.
+
+    To call:
+        variable_name()
+
+main = Every program has it own function or a module name called main : That means this function instructing the
+interpreter to be start executing this function first
+
+__name__ : Every package or python source code hase __name__
+
+__main__ : Main module (Python)
+
+if __name__ == "__main__":
+
+
+Parameterized Function:
+    Exactly same as your user-defined function. It caries an input value and returns an output. By the calling the function
+    I send an input and that function will process that input and producess some output.
+
+Types:
+    Function with parameters, without return statements.
+    Function without parameters, but with return statements.
+    Function with parameters and with return statements.
+
+    When a function returning an output we need to catch that output from the same place, where you called that function.
+
+Escape sequence:
+    I'm print('I\'m')
+    \n : New line
+    \t : Tab
+
+        
+    

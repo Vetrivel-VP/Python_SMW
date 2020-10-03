@@ -1,0 +1,46 @@
+Polymorphism:
+    Greek term  : 
+        Poly : Many 
+        Form : Shapes
+    Many shapes or many forms
+
+    A function can act in more than one form.
+
+Types:
+    Compile Time
+    Run Time
+
+compile Time :
+    It is achieved during the compilation. It is achieved by the Function Overloading.
+
+    Function Overloading:
+        Function name should be same
+        Either a function parameter or the function return type should be different.
+
+            Parent                  Child
+        FirstClass              SecondClass
+            run()                     run()
+
+    is-A 
+
+    ob = SecondClass()
+    
+    ob.run()
+    ob.run()
+    on.run()
+    on.run()
+
+    Runtime Polymorphism:
+        Achieved by the function overriding during the run Time
+    
+    Conditions:
+        Function name, parameter, return datatype everything should be same.
+
+    
+Encapsulation:
+    Hiding the implementation of the class properties. By making your members private.
+    Access Modifiers:
+        private, public, protected, default.
+
+    In python, __variable_name 
+    

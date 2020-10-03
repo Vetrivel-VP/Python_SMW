@@ -1,0 +1,114 @@
+Condition Statements:
+    Condition Statements helps you to check a condition, and then it returns the boolean value.
+
+Conditional Statements in python
+    If, If else, If elif ...else, nested If
+
+Logical Operators:
+    =                       assignment operator
+    ==                      equivalent operator
+    <                       lesser than
+    >                       greater than
+    <=                      lesser than or equals
+    >=                      greater than or equals
+    and                     AND gate
+    or                      OR gate
+    .                       Dot Operator
+
+Arithmetic Operators:
+        +,-,*,/
+    
+
+If Condition
+    This Statement check a condition, if the condition is satisfied it will be executed.
+
+    Synatx:
+        if (condition):
+            true_statement
+
+
+If Else Statement
+    Its return the false Statement also
+
+    Synatx:
+        if (condition):
+            true_statement
+        else:
+            false_statement
+
+1. Write a program to find Voter Id Elgibility check
+1. Read the age of the candidate
+2. Check candidate age is greater than or equal to 18
+3. True : Eligible to Voter
+   False: Not Eligible to vote 
+
+Output:
+    Enter the vandidate age: 19
+    Eligible to vote
+2. Write a program to find even or not even.
+    To check the reminder : %
+    1. Read a number
+    2. Check the reminder of that number is equals to 0 when dividing it by 2
+    3. Equals 0     : ( Given number ) is an Even Number
+    4. Not Equals 0 : ( Given number ) is not an Even Number
+ Output
+    Enter a number: 5
+    5 is not an even number
+
+
+If elif ....else
+        It works in a sequential order, executes the condition one by one
+    Syntax:
+        if condition 1 :
+            true_statement_1
+        elif condition 2:
+            true_statement_2
+            .
+            .
+        else:
+            false_statement
+eg:
+    Grade System.
+    45 - 55  : C Grade
+    56 - 65  : B Grade
+    66 - 75  : A Grade
+    76 - 100 : A+  
+    Other    : Fail
+    AND Gate
+        Intersection in SETS
+        A   B   AB
+        1   1   1
+        1   0   0
+        0   1   0
+        0   0   0
+    OR Gate
+        A   B   AB
+        1   1   1
+        1   0   1
+        0   1   1
+        0   0   0
+
+    tab = \t (Escape Sequence)
+    new line = \n
+
+
+Nested If :
+    Having a complete if condition inside another one if condition
+    Syntax:
+        if condition:
+            if condition 2 :
+                true_statement_2
+            else:
+                false_statement_2
+        else:
+            false_statement_1
+
+    
+    Write the program to find the biggest number 
+
+    Looping Statements:
+        For
+        while
+        Infinite
+        Sentinal
+        Star Pattern program

@@ -1,0 +1,27 @@
+Database:
+    It is the collection of data or a record in a table form.
+Actions:
+    They are performed by the help of servers.
+
+    Data Sent :Cliets -> Request-> Server -> Database .
+    Data Recieved : Cliets -> Request - > Server -> Collect The data from database - > Sent Back to the requested client.
+
+Microsoft SQL, Oracle, MySql, Azzure, Cloud Storages.
+
+SqlLite3 :
+    Light Weight Database.
+    No need of server.
+    Pyhton by default have the library module for SqlLite3.    
+
+    Create a Database.
+        SQL : Structured query language.
+    Create a table.
+
+
+    1. Import SqlLite3
+    2. Connect the Database.    : connect()
+    3. Create a cursor.
+    4. Create a SQL Statement.
+    5. Using cursor execute the SQL Statement
+    6. Commit the changes in the database.
+

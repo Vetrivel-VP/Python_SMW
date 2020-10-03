@@ -1,0 +1,113 @@
+Run the following command in your command prompt
+Open The run window:
+	win Key + R
+	Type cmd (For opening Command Prompt)
+	
+Find out the version:
+	python --version
+
+Ways of executions:
+	1 . Official IDLE 
+	2. DOS Prompt
+		start : python
+		end	  : quit()
+		
+	3. Python file
+	
+dir : List of directories in your current folder.
+cd	: change your directory
+		cd 'directory_name'
+	come out : cd ..
+	
+Installing VsCode.
+	Navigate to your workspace.
+		Open : code .
+		
+PEP : Python Enhancement Proposal.
+	Code Formatter : AutoPep8
+	Linting		 	:	PyLint
+	
+	CORE Concepts:
+		Condition statements
+		Looping Statements
+		Class & Objects
+		Oops Concepts
+		Python Graphics
+		Our Own Project
+		Deploy Your Project in PYPI.org
+		Upload in Github. ( Online Database Repositoris )
+		
+Datatypes:
+	Data is an information.
+	
+	Python Datatypes:
+		Integer
+		Decimal
+		String
+		Character
+		
+Variables:
+	Helps you to organise the data. To access and to retrive or to save in you memory space.
+	Two types:
+		Static Variable
+		Dynamic Variable
+	
+	Static:
+		Constant variable, which cannot be updated during the runtime of your program.
+	
+	Define Static variable:
+		Syntax:
+			variable_name = value
+	Conditions for Variable Name:
+		Dont use Keywords for the variable name.
+		It can alphanumeric.
+		We can't start with numbers, we need to start with alphabets.
+		Don't leave any unwanted space and don't use any special characters.
+		
+		Wright			Wrong
+		ab				a b
+		a_b				a-b
+		a2				2a
+		_a				$a, a$
+		
+	eg:
+		a = 5						Memory Space
+									Address			Variable_name			value
+									FF675				a					  5
+									G678				b					  10
+	Interpreter:
+		Compile and execute the code by line by line
+	
+	Types:
+		Cpython			: Compilled by C Interpreter	: Object Code
+		JPython			: Java Compillor				: Byte Code (JVM- Java Virtual Machine)
+		IronPython		: C# (Sharp) Compillor
+		PyPy			: Subprogram of python 
+		
+
+											
+Prifixed the print function with f'' - Formatted string , r'' - Raw String		
+		Value of Variables: Enclose that variable name {}
+		
+	
+Dynamic:
+	These variables are not constant, they can be updated during the runtime of your program.
+	input() : Reads the input from the user but by default it reads the input from the user in string Datatype
+	Typecasting:
+		Converting string to primitive or primitive to string.
+
+		int() : Convert a Datatype to an interger
+		float() : Convert a Datatype to a float
+		str()	: Convert a Datatype to string
+		eval() 	: Evaluate the input and connvert it to the respective Datatype either int or float
+
+	Syntax:
+		variable_name = input()
+
+
+Write a program to find Total & Average of a student 
+Output:
+	Enter the student Name:Sample
+	Enter Marks m1,m2,m3,m4,m5 : 55,55,55,55,55
+	Name : Sample, Total : 275, Average : 52.5%
+

@@ -1,0 +1,36 @@
+Tuple:
+    It is ordered and unchangeable
+    It alaways enclosed inside the ()
+Converting to List:
+    If you want to update a tuple the only way is to convert them to a list, then update your value. Finally convert your value to 
+    tuple again
+        List : list() constructor
+        Tuple : tuple() constructor
+
+
+Sets:
+    It is unordered and unindexed. We used to write sets inside the curely brackets {}
+
+    add()           : Helps to add new elemet to a set 
+    update()        : To add multiple elements
+    discard()       : Remove an element by a value.
+        The difference between the remove() and discard().
+            remove() : Raise an error if an element is not exists.
+            discard() : Doesn't raise an error if the element is not exists
+
+Dictionary:
+    It is unordered , changeable and indexed. We use the curely brackets. We the key and value pair combination.
+
+    values() : Returns the values of the Dictionary
+    items()  : Returns the both key and value pair
+    get()    : Single element value from the list
+    popitem() : Last inserted element from the Dictionary
+    pop() : Removes the value only which you specified
+
+        Syntax:
+            dict_name = {
+                key : value,
+                .
+                .
+                
+            }
