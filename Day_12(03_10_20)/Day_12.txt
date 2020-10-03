@@ -8,3 +8,7 @@ Call the main class of the tkinter:
     Main class: Tk()
 
 minaloop () : Function helps you to execute your graphical window
+
+Pull() : To pull any changes in your file
+clone() : Downloading the complete project from the Git
+Push() : Updating the git file with current changes.
